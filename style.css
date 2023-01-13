@@ -1,0 +1,69 @@
+body {
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    width: 550px;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    text-align: center;
+
+    /* From https://css.glass */
+    background: rgba(69, 113, 138, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border: 1px solid rgba(109, 221, 48, 0.28);
+    color: aliceblue;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+button {
+    padding: 10px;
+    width: 170px;
+
+    border-radius: 10px;
+    border: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.start {
+    background-color: rgb(21, 161, 115);
+    color: white;
+}
+
+.stop {
+    background-color: rgb(177, 65, 75);
+    color: white;
+}
+
+.clear {
+    background-color: black;
+    color: white;
+}
+
+.pausado{
+    color: #f45;
+}
